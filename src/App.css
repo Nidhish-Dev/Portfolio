@@ -1,0 +1,23 @@
+body {
+  background-image: url('../public/bg1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  /* Remove default body margin */
+}
+.home-container {
+  margin-top: 200px;
+}
+html,
+body {
+  height: 100%;
+  /* Set html and body height to 100% */
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    /* Adjust background for mobile devices */
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
