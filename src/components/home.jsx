@@ -36,13 +36,13 @@ const Home = () => {
         <Tech />
       ) : (
         <button onClick={handleBrowseTech} className="browse-projects">
-          Show Technologies
+          Show Skills
         </button>
       )}
       <hr className='projhr' />
-      <Link to="contact" smooth={true} duration={500} className="browse-projects contacta">
-        Contact me
-      </Link>
+      <a href="https://nidhish-dev.github.io/Contact_me/" className="browse-projects contacta">
+  Contact me
+</a>
       <hr className='projhr' />
     </div>
   );

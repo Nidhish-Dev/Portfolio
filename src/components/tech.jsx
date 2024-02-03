@@ -17,7 +17,7 @@ const tech = () => {
   const logos = [Html,Css,Javascript,React,Next,Mongo,Node,Express,Java,Firebase,Figma,Docker,Github,vscode];
   return (
     <>
-    <p className='title'>Technologies</p>
+    <p className='title'>Skills</p>
     {/* <p className='add'>Technologies will be added soon</p> */}
      <div className='logos-container'>
         {logos.map((logo, index) => (
