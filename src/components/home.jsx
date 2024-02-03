@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { animateScroll as scroll } from 'react-scroll';
+// import { animateScroll as scroll } from 'react-scroll';
 import './home.css';
 import Project from './project';
 import Tech from './tech';
@@ -10,12 +10,12 @@ const Home = () => {
 
   const handleBrowseProjects = () => {
     setShowProject(true);
-    scroll.scrollToBottom(); // Smooth scroll to the bottom when showing projects
+    // scroll.scrollToBottom(); // Smooth scroll to the bottom when showing projects
   };
 
   const handleBrowseTech = () => {
     setShowTech(true);
-    scroll.scrollToBottom(); // Smooth scroll to the bottom when showing technologies
+    // scroll.scrollToBottom(); // Smooth scroll to the bottom when showing technologies
   };
 
   return (
