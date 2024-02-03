@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
 import './home.css';
 import Project from './project';
 import Tech from './tech';
