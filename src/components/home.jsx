@@ -1,18 +1,21 @@
-// home.jsx
 import { useState } from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import './home.css';
 import Project from './project';
-import Tech from './tech'
+import Tech from './tech';
 
 const Home = () => {
-
   const [showTech, setShowTech] = useState(false);
   const [showProject, setShowProject] = useState(false);
-const handleBrowseProjects = () => {
+
+  const handleBrowseProjects = () => {
     setShowProject(true);
+    scroll.scrollToBottom(); // Smooth scroll to the bottom when showing projects
   };
+
   const handleBrowseTech = () => {
     setShowTech(true);
+    scroll.scrollToBottom(); // Smooth scroll to the bottom when showing technologies
   };
 
   return (
@@ -37,10 +40,12 @@ const handleBrowseProjects = () => {
         </button>
       )}
       <hr className='projhr' />
-      <a href="https://nidhish-dev.github.io/Contact_me/" className="browse-projects">Contact me</a>
-     <hr className='projhr' />
+      <Link to="contact" smooth={true} duration={500} className="browse-projects contacta">
+        Contact me
+      </Link>
+      <hr className='projhr' />
     </div>
   );
-}
+};
 
 export default Home;
