@@ -8,9 +8,9 @@
     background-color: rgba(255, 255, 255, 0.212);
     padding: 4px;
     font-size: 14px;
-      position: fixed;
-  bottom: 0;
-  width: 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -18,6 +18,5 @@
 @media only screen and (max-width: 600px) {
     .Footer {
         font-size: 12px;
-        /* Adjust the font size for mobile devices */
     }
 }
