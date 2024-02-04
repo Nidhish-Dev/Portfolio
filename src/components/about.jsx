@@ -75,7 +75,7 @@ const About = ({ onBackClick, isAboutVisible }) => {
             onClick={openGitHubProfile}
           />
           <hr />
-          <button onClick={onBackClick}>Back</button>
+          <button className="back" onClick={onBackClick}>Back</button>
         </>
       )}
     </div>
