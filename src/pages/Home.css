@@ -1,0 +1,91 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+.home-name {
+  margin-top: -35px;
+}
+.home-container p {
+  font-size: 50px;
+  font-weight: 500;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: revealText 3s forwards;
+}
+@keyframes revealText {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-name {
+  animation-delay: 0.5s;
+}
+
+.home-container span {
+  animation-delay: 1s;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: revealText 3s forwards;
+}
+.home-container span {
+  margin-top: -45px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.getStartedbtn {
+  margin-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  border-radius: 8px;
+  padding-bottom: 5px;
+  background-color: white;
+}
+.home-container a {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000000;
+}
+
+.getStartedbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: transform 0.5s ease, translateY(20px);
+  animation: revealText 3s forwards;
+  animation-delay: 1.5s;
+}
+
+.getStartedbtn:hover {
+  transform: scale(1.12);
+}
+.getStartedbtn lord-icon {
+  height: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .home-container p {
+        font-size: 40px;
+    }
+
+    .home-container span {
+        font-size: 18px;
+    }
+
+    .getStartedbtn {
+        margin-top: 30px;
+    }
+
+    .getStartedbtn lord-icon {
+        height: 18px;
+    }
+}
