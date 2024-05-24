@@ -1,6 +1,7 @@
 import './Main.css'
 import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom'
+
 const Main = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const Main = () => {
         </div>
       </Link>
     </div>
+ 
     </>
   )
 }

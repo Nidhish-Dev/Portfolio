@@ -2,6 +2,7 @@ import Home from './pages/Home';
 import Main from './pages/Main';
 import About from './pages/About'
 import Projects from './pages/Projects'
+import Footer from './components/Footer';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/Portfolio/about" element={<About />} />
         <Route path="/Portfolio/projects" element={<Projects />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };

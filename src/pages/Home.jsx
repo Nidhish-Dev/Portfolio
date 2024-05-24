@@ -17,6 +17,7 @@ const Home = () => {
           </lord-icon>
         </div>
       </Link>
+
     </div>
   );
 }
