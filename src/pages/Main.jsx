@@ -1,7 +1,7 @@
 import './Main.css'
 import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom'
-
+import Footer from '../components/Footer'
 const Main = () => {
   return (
     <>
@@ -19,8 +19,9 @@ const Main = () => {
           View Projects
         </div>
       </Link>
+
     </div>
- 
+ <Footer />
     </>
   )
 }
