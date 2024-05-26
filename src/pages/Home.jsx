@@ -10,7 +10,7 @@ const Home = () => {
       <span>Web Developer</span>
       <Link to="/Portfolio/main">
         <div className="getStartedbtn">
-          get started
+          Get Started
           <lord-icon
             src="https://cdn.lordicon.com/vduvxizq.json"
             trigger="hover"

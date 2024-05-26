@@ -1,7 +1,7 @@
 import './Main.css'
 import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom'
-import Footer from '../components/Footer'
+// import Footer from '../components/Footer'
 const Main = () => {
   return (
     <>
@@ -21,7 +21,7 @@ const Main = () => {
       </Link>
 
     </div>
- <Footer />
+    {/* <Footer /> */}
     </>
   )
 }

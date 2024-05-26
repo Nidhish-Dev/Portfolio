@@ -14,7 +14,7 @@ body {
     color: white;
     position: absolute;
     bottom: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .leftfoot {
@@ -54,11 +54,13 @@ body {
 .leftfoot {
     margin-left: 10px;
 
-  
+  font-size: 12px;
 }
 
 .rightfoot {
     margin-right: 1px;
 }
- 
+ .rightfoot img{
+    height: 22px;
+ }
 }

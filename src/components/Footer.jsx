@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="leftfoot">Copyright © 2024 | Nidhish Rathore</div>
 
         <div className="rightfoot">
-            <a target='/' href="https://github.com/dashboard">
+            <a target='/' href="https://github.com/Nidhish-Dev/Nidhish-Dev">
             <img className='githubimg' src="/Portfolio/github.png" alt="" />
             </a>
         </div>
